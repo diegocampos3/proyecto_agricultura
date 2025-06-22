@@ -1,0 +1,28 @@
+{
+  "name": "restapi_nasa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Diego Campos",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.7",
+    "babel-runtime": "^6.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "lodash": "^4.17.21",
+    "ml-regression": "^5.0.0",
+    "mongoose": "^8.7.0",
+    "openai": "^4.67.1",
+    "pandas-js": "^0.2.4",
+    "python-shell": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
